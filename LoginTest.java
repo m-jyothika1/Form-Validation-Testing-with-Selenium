@@ -1,5 +1,3 @@
-// Sample Selenium Java test for login form
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -19,9 +17,6 @@ public class LoginTest {
         username.sendKeys("testuser");
         password.sendKeys("password123");
         loginBtn.click();
-
-        // Add assertion or validation logic here
-
         driver.quit();
     }
 }
